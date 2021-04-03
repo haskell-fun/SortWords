@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "haskell-example:lib"
+
+    - path: "./app/Main.hs"
+      component: "haskell-example:exe:haskell-example-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "haskell-example:exe:haskell-example-exe"
+
+    - path: "./test"
+      component: "haskell-example:test:haskell-example-test"
+
